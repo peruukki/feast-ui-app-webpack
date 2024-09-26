@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 
@@ -9,7 +10,12 @@ module.exports = {
       template: 'src/index.html',
     }),
     new CopyPlugin({
-      patterns: [{ from: 'src/icons' }],
+      patterns: [{ from: 'src/icons' }, { from: 'src/public' }],
+    }),
+    new webpack.DefinePlugin({
+      process: {
+        env: {},
+      },
     }),
   ],
   module: {

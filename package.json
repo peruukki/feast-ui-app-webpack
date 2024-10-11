@@ -46,6 +46,8 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
+    "@elastic/eui": "^97.0.0",
+    "@feast-dev/feast-ui": "file:../feast/ui/feast-dev-feast-ui-v0.40.0.tgz",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   }

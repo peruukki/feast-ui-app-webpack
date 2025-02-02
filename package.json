@@ -47,7 +47,7 @@
   },
   "dependencies": {
     "@elastic/eui": "^97.0.0",
-    "@feast-dev/feast-ui": "file:../feast/ui/feast-dev-feast-ui-v0.41.0.tgz",
+    "@feast-dev/feast-ui": "file:../feast/ui/feast-dev-feast-ui-v0.43.0.tgz",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   }

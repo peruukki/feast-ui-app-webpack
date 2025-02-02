@@ -12,11 +12,11 @@ module.exports = {
     new CopyPlugin({
       patterns: [{ from: 'src/icons' }, { from: 'src/public' }],
     }),
-    new webpack.DefinePlugin({
-      process: {
-        env: {},
-      },
-    }),
+    //    new webpack.DefinePlugin({
+    //      process: {
+    //        env: {},
+    //      },
+    //    }),
   ],
   module: {
     rules: [
